@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.css">
+</head>
+<body>
+<div class="ui grid">
+  <div class="four wide column">
+  	<div class="ui selection dropdown league left">
+	  <input type="hidden" name="league" value="0">
+	  <i class="dropdown icon"></i>
+	  <div class="default text">League</div>
+	  <div class="menu">
+	  </div>
+	</div>
+	<div class="ui selection dropdown division left">
+	  <input type="hidden" name="division" value="0">
+	  <i class="dropdown icon"></i>
+	  <div class="default text">Division</div>
+	  <div class="menu">	    
+	  </div>
+	</div>
+	<div class="ui labeled input">
+  <div class="ui label">
+    Lp:
+  </div>
+  <input type="text" placeholder="LP" class="lp">
+</div>
+
+  </div>
+  <div class="four wide column">
+  	<div class="ui selection dropdown league right">
+	  <input type="hidden" name="league" value="0">
+	  <i class="dropdown icon"></i>
+	  <div class="default text">League</div>
+	  <div class="menu">
+	  </div>
+	</div>
+	<div class="ui selection dropdown division right">
+	  <input type="hidden" name="division" value="0">
+	  <i class="dropdown icon"></i>
+	  <div class="default text">Division</div>
+	  <div class="menu">
+	  </div>
+	</div>
+	<button class="calculate ui basic primary"></button>
+  </div>
+</div>
+		
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.js"></script>
+	<script src="./app.js?v1"></script>
+</body>
+</html>
